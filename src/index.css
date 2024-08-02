@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background font-sans text-text;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-card p-6;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-all duration-300 ease-in-out;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-opacity-90;
+}
+
+.input {
+  @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary;
+}
